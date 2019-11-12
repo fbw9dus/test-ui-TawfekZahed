@@ -1,0 +1,67 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /*- navbar -img  */
+img{
+    width: 2em;
+}
+.navbar-brand span{
+    color:rgb(109, 40, 189);
+    margin-left:1em;
+}
+
+/*navbar-links*/
+.navbar-nav{
+    float:right;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:grey;
+}
+.navbar-light .navbar-nav .nav-link span{
+    color:rgb(109, 40, 189);
+}
+/*container---offer--*/
+.big-container{
+    background-image: url("test-ui-botros1983/images/bg.jpg");
+    border:1x wheat;
+}
+.container{
+    border:1px solid white;
+    float: right;
+    max-width: 37em;
+    height: auto;
+    margin: 4em;
+    padding: 1em;
+    background-color:white;
+}
+.offer {
+    padding: 1em;
+    border: 1px solid rgb(226, 220, 220);
+    background-color:rgb(226, 220, 220);
+    width: 37em;
+    margin-left: -1em;
+    margin-top: -1em;
+}
+/*--------form-label-button------*/
+label {
+    display: inline-block;
+    color: black;
+}
+.btn-primary {
+    margin: 1em;
+    color: #fff;
+    background-color: rgb(109, 40, 189);
+    border-color: rgb(109, 40, 189);
+    text-align: center;
+    width: 33em;
+}
+.mb-3, .my-3 {
+padding-top:1em;
+}
+.paragraph{
+    color:white;
+    margin-top:4em;
+    margin-left:1em;
+}
